@@ -38,6 +38,8 @@ p {
     -webkit-box-align: center;
     -ms-flex-align: center;
     align-items: center;
+    max-width: 1280px;
+    margin: 0 auto;
     width: 1280px;
     height: 100%;
     background-image: -webkit-gradient(linear, left top, right top, from(rgba(0, 0, 0, 0.5)), to(rgba(0, 0, 0, 0.5))), url("../images/divingHero.jpg");
