@@ -1,0 +1,27 @@
+nav {
+  width: 980px;
+  height: 92px;
+  margin: 0 auto;
+  border-bottom: 2px solid white;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  .links {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-transform: lowercase;
+    a {
+      color: white;
+      font-size: 15px;
+      text-decoration: none;
+    }
+
+    span {
+      margin: 0 10px;
+      color: blue;
+      font-size: 20px;
+    }
+  }
+}
