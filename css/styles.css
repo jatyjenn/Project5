@@ -23,7 +23,7 @@
     margin-bottom: 70px; }
     .home .home-content .site-button {
       padding: 10px 25px;
-      background-color: slateblue;
+      background-color: orange;
       text-decoration: none;
       color: #fff;
       margin-top: 30px;
@@ -91,7 +91,7 @@
         padding-bottom: 150px; }
   .home .site-button {
     padding: 10px 25px;
-    background-color: slateblue;
+    background-color: orange;
     text-decoration: none;
     color: #fff;
     margin-left: 45px;
@@ -100,7 +100,7 @@
 .about {
   height: 100%;
   width: 100%;
-  background-color: #000000; }
+  background-color: #fff; }
   .about .about-container {
     width: 100%;
     height: 100%;
@@ -116,7 +116,7 @@
     flex-direction: column; }
     .about .about-container h1 {
       font-size: 60px;
-      color: #fff;
+      color: #000000;
       text-decoration: none;
       font-family: sans-serif;
       font-weight: 200;
@@ -139,7 +139,7 @@
       justify-content: center; }
       .about .about-container .content p {
         font-size: 30px;
-        color: #fff;
+        color: #000000;
         font-family: sans-serif;
         font-weight: 400;
         width: 50%;
@@ -267,8 +267,7 @@ nav {
   height: 100%;
   -webkit-box-sizing: border-box;
   box-sizing: border-box;
-  margin-left: 400px;
-  margin-top: -40px; }
+  margin-left: 400px; }
   .class-container h1 {
     width: 600px;
     font-size: 32px;
@@ -302,7 +301,7 @@ nav {
     width: 400px; }
     .class-content .novice .site-button {
       padding: 10px 25px;
-      background-color: slateblue;
+      background-color: orange;
       text-decoration: none;
       color: #fff;
       border-radius: 20px; }
@@ -323,7 +322,7 @@ nav {
     width: 400px; }
     .class-content .experienced .site-button {
       padding: 10px 25px;
-      background-color: slateblue;
+      background-color: orange;
       text-decoration: none;
       color: #fff;
       border-radius: 20px; }
@@ -344,7 +343,7 @@ nav {
     width: 400px; }
     .class-content .advanced .site-button {
       padding: 10px 25px;
-      background-color: slateblue;
+      background-color: orange;
       text-decoration: none;
       color: #fff;
       border-radius: 20px; }
@@ -369,7 +368,6 @@ nav {
     width: 1280px;
     height: 300px;
     margin-left: 90px;
-    background-color: darkgreen;
     background-image: -webkit-gradient(linear, left top, right top, from(rgba(0, 0, 0, 0.4))), url(../images/corals.jpg);
     background-image: -webkit-linear-gradient(left rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(../images/corals.jpg);
     background-image: -o-linear-gradient(left rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(../images/corals.jpg);
@@ -379,7 +377,7 @@ nav {
     margin-bottom: 60px; }
   .text-content .site-button {
     padding: 10px 205px;
-    background-color: slateblue;
+    background-color: orange;
     text-decoration: none;
     color: #fff;
     margin-left: 450px;
@@ -421,7 +419,7 @@ nav {
       text-align: center; }
     .blog .blog-content .site-button {
       padding: 10px 45px;
-      background-color: slateblue;
+      background-color: orange;
       text-decoration: none;
       color: #fff;
       margin-top: 200px;
@@ -461,7 +459,8 @@ nav {
         background-image: linear-gradient(to right rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(../images/blog1.jpg);
         background-position: center;
         background-size: cover;
-        background-repeat: no-repeat; }
+        background-repeat: no-repeat;
+        cursor: pointer; }
     .blog .blog-container .sponge {
       height: 500px;
       width: 400px; }
@@ -476,7 +475,8 @@ nav {
         background-image: linear-gradient(to right rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(../images/blog2.jpg);
         background-position: center;
         background-size: cover;
-        background-repeat: no-repeat; }
+        background-repeat: no-repeat;
+        cursor: pointer; }
     .blog .blog-container .sea {
       height: 500px;
       width: 400px; }
@@ -484,22 +484,22 @@ nav {
         background-color: antiquewhite;
         height: 200px;
         width: 300px;
-        margin-left: 50px;
+        margin-left: 45px;
         background-image: -webkit-gradient(linear, left top, right top, from(rgba(0, 0, 0, 0.4))), url(../images/blog3.jpg);
         background-image: -webkit-linear-gradient(left rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(../images/blog3.jpg);
         background-image: -o-linear-gradient(left rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(../images/blog3.jpg);
         background-image: linear-gradient(to right rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(../images/blog3.jpg);
         background-position: center;
         background-size: cover;
-        background-repeat: no-repeat; }
-
-.sites-button {
-  padding: 10px 25px;
-  background-color: slateblue;
-  text-decoration: none;
-  color: #fff;
-  margin-left: 650px;
-  border-radius: 20px; }
+        background-repeat: no-repeat;
+        cursor: pointer; }
+  .blog .sites-button {
+    padding: 10px 25px;
+    background-color: orange;
+    text-decoration: none;
+    color: #fff;
+    margin-left: 650px;
+    border-radius: 20px; }
 
 footer {
   background-color: #012c47;
@@ -536,7 +536,7 @@ footer {
 .tours {
   height: 100%;
   width: 100%;
-  background-color: #012c47; }
+  background-color: #fff; }
   .tours .tours-container {
     width: 100%;
     height: 100%;
@@ -551,7 +551,6 @@ footer {
     -ms-flex-direction: column;
     flex-direction: column; }
     .tours .tours-container .dive-container {
-      background-color: yellowgreen;
       width: 980px;
       height: 320px;
       margin-top: 50px;
@@ -575,7 +574,7 @@ footer {
         background-size: cover;
         background-repeat: no-repeat; }
         .tours .tours-container .dive-container .learn h2 {
-          color: #fff;
+          color: #000000;
           margin-left: 50px;
           margin-top: 30px;
           padding-bottom: 150px;
@@ -635,7 +634,7 @@ footer {
 .equip {
   height: 100%;
   width: 100%;
-  background-color: #000000; }
+  background-color: #fff; }
   .equip .gear-container {
     width: 100%;
     height: 100%;
@@ -650,7 +649,6 @@ footer {
     -ms-flex-direction: column;
     flex-direction: column; }
     .equip .gear-container .equip-container {
-      background-color: yellowgreen;
       width: 980px;
       height: 320px;
       margin-top: 50px;
@@ -755,7 +753,7 @@ footer {
       border-radius: 20px; }
   .equip h1 {
     font-size: 60px;
-    color: white;
+    color: black;
     text-decoration: none;
     font-family: sans-serif;
     font-weight: 200;

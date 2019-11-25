@@ -1,7 +1,7 @@
 .about {
   height: 100%;
   width: 100%;
-  background-color: $site-black;
+  background-color: $site-white;
 
   .about-container {
     width: 100%;
@@ -13,7 +13,7 @@
 
     h1 {
       font-size: 60px;
-      color: $site-white;
+      color: $site-black;
       text-decoration: none;
       font-family: sans-serif;
       font-weight: 200;
@@ -31,7 +31,7 @@
       justify-content: center;
       p {
         font-size: 30px;
-        color: $site-white;
+        color: $site-black;
         font-family: sans-serif;
         font-weight: 400;
         width: 50%;

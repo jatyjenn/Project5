@@ -36,7 +36,7 @@
 
     .site-button {
       padding: 10px 45px;
-      background-color: slateblue;
+      background-color: orange;
       text-decoration: none;
       color: $site-white;
       //margin-left: 450px;
@@ -86,6 +86,7 @@
         background-position: center;
         background-size: cover;
         background-repeat: no-repeat;
+        cursor: pointer;
       }
     }
 
@@ -106,6 +107,7 @@
         background-position: center;
         background-size: cover;
         background-repeat: no-repeat;
+        cursor: pointer;
       }
     }
 
@@ -117,7 +119,7 @@
         background-color: antiquewhite;
         height: 200px;
         width: 300px;
-        margin-left: 50px;
+        margin-left: 45px;
         background-image: linear-gradient(
             to right rgba($site-black, 0.4),
             rgba($site-black, 0.4)
@@ -126,16 +128,16 @@
         background-position: center;
         background-size: cover;
         background-repeat: no-repeat;
+        cursor: pointer;
       }
     }
   }
-}
-
-.sites-button {
-  padding: 10px 25px;
-  background-color: slateblue;
-  text-decoration: none;
-  color: $site-white;
-  margin-left: 650px;
-  border-radius: 20px;
+  .sites-button {
+    padding: 10px 25px;
+    background-color: orange;
+    text-decoration: none;
+    color: $site-white;
+    margin-left: 650px;
+    border-radius: 20px;
+  }
 }

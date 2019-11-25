@@ -1,7 +1,7 @@
 .tours {
   height: 100%;
   width: 100%;
-  background-color: $site-blue;
+  background-color: $site-white;
 
   .tours-container {
     width: 100%;
@@ -12,7 +12,7 @@
     flex-direction: column;
 
     .dive-container {
-      background-color: yellowgreen;
+      //background-color: yellowgreen;
       width: 980px;
       height: 320px;
       margin-top: 50px;
@@ -34,7 +34,7 @@
         background-repeat: no-repeat;
 
         h2 {
-          color: $site-white;
+          color: $site-black;
           margin-left: 50px;
           margin-top: 30px;
           padding-bottom: 150px;

@@ -4,7 +4,7 @@
   height: 100%;
   box-sizing: border-box;
   margin-left: 400px;
-  margin-top: -40px;
+  // margin-top: -40px;
 
   h1 {
     // background-color: blueviolet;
@@ -47,7 +47,7 @@
 
     .site-button {
       padding: 10px 25px;
-      background-color: slateblue;
+      background-color: orange;
       text-decoration: none;
       color: $site-white;
       //margin-left: 450px;
@@ -79,7 +79,7 @@
 
     .site-button {
       padding: 10px 25px;
-      background-color: slateblue;
+      background-color: orange;
       text-decoration: none;
       color: $site-white;
       //margin-left: 450px;
@@ -112,7 +112,7 @@
 
     .site-button {
       padding: 10px 25px;
-      background-color: slateblue;
+      background-color: orange;
       text-decoration: none;
       color: $site-white;
       //margin-left: 450px;
@@ -146,7 +146,7 @@
     width: 1280px;
     height: 300px;
     margin-left: 90px;
-    background-color: darkgreen;
+    //background-color: darkgreen;
     background-image: linear-gradient(
         to right rgba($site-black, 0.4),
         rgba($site-black, 0.4)
@@ -159,7 +159,7 @@
   }
   .site-button {
     padding: 10px 205px;
-    background-color: slateblue;
+    background-color: orange;
     text-decoration: none;
     color: $site-white;
     margin-left: 450px;
