@@ -574,7 +574,7 @@ footer {
         background-size: cover;
         background-repeat: no-repeat; }
         .tours .tours-container .dive-container .learn h2 {
-          color: #000000;
+          color: #fff;
           margin-left: 50px;
           margin-top: 30px;
           padding-bottom: 150px;
@@ -622,7 +622,7 @@ footer {
       border-radius: 20px; }
   .tours h1 {
     font-size: 60px;
-    color: #fff;
+    color: #000000;
     text-decoration: none;
     font-family: sans-serif;
     font-weight: 200;
